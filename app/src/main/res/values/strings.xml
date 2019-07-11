@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ALC4_Challenge_1</string>
+    <string name="welcome">Welcome to ALC 4.0</string>
+    <string name="about_btn_text">about alc</string>
+    <string name="profile_btn_txt">my profile</string>
+    <string name="name">Eugene Owak</string>
+    <string name="track_name">Android</string>
+    <string name="country">Uganda</string>
+    <string name="email">teugeneowak@gmail.com</string>
+    <string name="phone">+256 758 292849</string>
+    <string name="slack_name">geneowak</string>
+</resources>
