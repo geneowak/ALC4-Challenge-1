@@ -1,7 +1,7 @@
 package com.geneowak.alc4_challenge_1;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class Profile extends AppCompatActivity {
 
@@ -10,4 +10,6 @@ public class Profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
     }
+
+
 }

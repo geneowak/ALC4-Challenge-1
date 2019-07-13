@@ -4,9 +4,9 @@
     <string name="about_btn_text">about alc</string>
     <string name="profile_btn_txt">my profile</string>
     <string name="name">Eugene Owak</string>
-    <string name="track_name">Android</string>
-    <string name="country">Uganda</string>
-    <string name="email">teugeneowak@gmail.com</string>
-    <string name="phone">+256 758 292849</string>
-    <string name="slack_name">geneowak</string>
+    <string name="track_name">Track:    Android</string>
+    <string name="country">Country: Uganda</string>
+    <string name="email">Email: teugeneowak@gmail.com</string>
+    <string name="phone">Phone Number:  +256 758 292849</string>
+    <string name="slack_name">Slack Username:   @geneowak</string>
 </resources>
