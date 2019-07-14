@@ -5,13 +5,17 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.net.http.SslError;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import java.util.Objects;
 
 public class About extends AppCompatActivity {
 
@@ -24,6 +28,13 @@ public class About extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
+        Toolbar toolbar = findViewById(R.id.about_toolbar);
+        setSupportActionBar(toolbar);
+        ActionBar bar = getSupportActionBar();
+        Objects.requireNonNull(bar).setTitle("About ALC");
+        // enable up button
+        bar.setDisplayHomeAsUpEnabled(true);
+
         eProgressDialog = ProgressDialog.show(this, "Loading", "Please wait...", true);
         eProgressDialog.setCancelable(false);
 
